@@ -10,7 +10,7 @@ sed -i "" -e 's/Reprocessing_ClientWrapper.init/Reasongl.Gl.Window.init/' src/Re
 
 ls src
 
-./node_modules/docre/lib/bs/native/main.native
+./node_modules/redoc/lib/bs/native/bin.native
 
 sed -i "" -e 's/Reasongl.Gl.Window.init/Reprocessing_ClientWrapper.init/' src/Reprocessing.re
 
