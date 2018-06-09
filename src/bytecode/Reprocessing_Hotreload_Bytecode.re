@@ -28,7 +28,7 @@ let ( +/ ) = Filename.concat;
 
 let ocamlPath = "node_modules" +/ "bs-platform" +/ "vendor" +/ "ocaml" +/ ocaml;
 
-let refmtexe = "node_modules" +/ "bs-platform" +/ "lib" +/ "refmt3.exe";
+let refmtexe = "node_modules" +/ "bs-platform" +/ "lib" +/ "refmt.exe";
 
 let checkRebuild = (filePath) => {
   let {Unix.st_mtime} = Unix.stat(filePath);
